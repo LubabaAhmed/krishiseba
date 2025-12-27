@@ -17,6 +17,7 @@ export interface ForumPost {
   author: string;
   title: string;
   content: string;
+  imageUrl?: string;
   timestamp: Date;
   replies: ForumReply[];
 }
