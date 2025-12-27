@@ -18,3 +18,19 @@ View your app in AI Studio: https://ai.studio/apps/drive/1DMeiZiUlHDZaG9GlV9Hz_t
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+# Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Runtime**: Node.js (serverless functions)
+- **Media Processing**: FFmpeg/FFprobe (in-memory, no disk writes)
+- **Language**: TypeScript (strict mode)
+
+## Constraints
+
+| Constraint | Value |
+|------------|-------|
+| Max upload size | 10 MB |
+| Frame extraction interval | 5 seconds |
+| Max frames | 1000 |
+| Embedding dimension | 1024 |
+| Max face embedding height | 448px |
