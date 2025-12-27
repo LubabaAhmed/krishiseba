@@ -1,0 +1,7 @@
+{
+  "name": "Krishi Sheba (কৃষি সেবা)",
+  "description": "An AI-powered agricultural assistant for farmers to identify crop diseases, get solutions, and connect with the farming community in Bangla.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
